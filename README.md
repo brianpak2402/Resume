@@ -4,4 +4,4 @@ build the resume. All other files are irrelevant and were used to compile the .t
 
 [Download PDF](https://raw.githubusercontent.com/mxinburritos/resume/master/resume.pdf)
 ### Preview
-![image of resume](/Resume.jpg)
+![image of resume](/Resume.png)
