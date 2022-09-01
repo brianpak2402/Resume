@@ -11,6 +11,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{fontawesome5}
 \input{glyphtounicode}
 
 \pagestyle{fancy}
@@ -101,19 +102,19 @@
 \begin{document}
 
 %----------HEADING-----------------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://www.linkedin.com/in/brianpakk/}{\Large Brian Pak}} & Email : \href{mailto:brianpak2402@gmail.com}{brianpak2402@gmail.com}\\
-  \href{https://www.linkedin.com/in/brianpakk/}{https://www.linkedin.com/in/brianpakk/} & Mobile : +1-678-641-5035 \\
-\end{tabular*}
-
+\begin{center}
+  \textbf{\href{https://www.linkedin.com/in/brianpakk/}{\huge Brian Pak}} \\
+  \vspace*{0.1cm}
+  \faIcon{envelope} \href{mailto:brianpak2402@gmail.com}{brianpak2402@gmail.com}  $\cdot$ \faIcon{github} \href{https://github.com/brianpak2402}{github.com/brianpak2402} $\cdot$ \faIcon{linkedin} \href{https://www.linkedin.com/in/brianpakk/}{linkedin.com/in/brianpakk}  
+\end{center}
 
 %-----------EDUCATION-----------------
 \section{Education}
     \resumeEducationHeading
       {Georgia Institute of Technology $\vert$ Atlanta, GA}{Expected Graduation: May 2024}
-      {B.S -- Computational Media}{\vspace{0.1cm} } 
+      {B.S -- Computer Science}{\vspace{0.1cm} } 
     \textbf{Previous Coursework}{: Data Structures \& Algorithms, Computer Organization \& Programming, Systems Programming, Combinatorics, Discrete Mathematics} \\
-    \textbf{Current Coursework}{: Objects \& Design, Intro to Info Visualization, Intro to AI}
+    \textbf{Current Coursework}{: Objects \& Design, Information Visualization, Intro to AI, Robotics \& Perception}
 
 %--------SKILLS------------
 \section{Technical Skills}
@@ -123,16 +124,16 @@
 
 %-----------PROJECT EXPERIENCE-----------------
 \section{Projects}
-    \resumeProjectHeading{Stranger Things Showdown!}{C}
-      \resumeItemListStart
-        \item {Designed and programmed a Stranger Things inspired rock-paper-scissors video game for the GameBoy Advance.}
-        \item {Implemented graphics of seven characters and background scenery by manipulating Direct Memory Access functions and implemented game logic using basic C programming.}
-      \resumeItemListEnd
-
     \resumeProjectHeading{Unix Utilities}{C}
       \resumeItemListStart
         \item {Implemented a collection of eight Linux/UNIX command-line commands, including head, tail, env, and word count.}
         \item {Utilized \textbf{C Standard Library Functions} to properly make requests to the Linux Kernel for function implementations.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading{Stranger Things Showdown!}{C}
+      \resumeItemListStart
+        \item {Designed and programmed a Stranger Things inspired rock-paper-scissors video game for the GameBoy Advance.}
+        \item {Implemented graphics of seven characters and background scenery by manipulating Direct Memory Access functions and implemented game logic using basic C programming.}
       \resumeItemListEnd
 
     \resumeProjectHeading{Geography Quiz}{JavaFX, JUnit, Maven}
