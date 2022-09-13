@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1662055846 "/Users/brianpak/jobs/Current Resume/Brian Pak Resume.tex" "Brian Pak Resume.pdf" "Brian Pak Resume" 1662055846
-  "/Users/brianpak/jobs/Current Resume/Brian Pak Resume.tex" 1662055845 5858 4f15f7b9c9e3e880d492644cda916b6f ""
+["pdflatex"] 1663073485 "/Users/brianpak/jobs/Current Resume/Brian Pak Resume.tex" "Brian Pak Resume.pdf" "Brian Pak Resume" 1663073486
+  "/Users/brianpak/jobs/Current Resume/Brian Pak Resume.tex" 1663073485 6051 187f55fd74a2e0c438d9b9831ec8d36b ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -97,9 +97,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1652965261 2826441 3c8f17cfde4f7a0bdeb738a0094c8e22 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Brian Pak Resume.aux" 1662055846 1197 4f010a797dfbe233eb748a5aaadcb651 "pdflatex"
-  "Brian Pak Resume.out" 1662055846 390 384e8ba55f90a4d3cd9beedcea7cdbda "pdflatex"
-  "Brian Pak Resume.tex" 1662055845 5858 4f15f7b9c9e3e880d492644cda916b6f ""
+  "Brian Pak Resume.aux" 1663073486 1208 c3c12fb4cb371bf06bbc2191e3ffd081 "pdflatex"
+  "Brian Pak Resume.out" 1663073486 448 4169e96df6afab04aef4f0400eefc443 "pdflatex"
+  "Brian Pak Resume.tex" 1663073485 6051 187f55fd74a2e0c438d9b9831ec8d36b ""
   (generated)
   "Brian Pak Resume.aux"
   "Brian Pak Resume.log"
