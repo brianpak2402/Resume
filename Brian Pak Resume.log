@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.19)  13 SEP 2022 08:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.19)  26 SEP 2022 23:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -285,8 +285,6 @@ LaTeX Info: Redefining \nameref on input line 102.
 \@outlinefile=\write3
 \openout3 = `"Brian Pak Resume.out"'.
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 108.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 108.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -297,22 +295,17 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 108
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 108.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10.95> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 108.
-
-Underfull \hbox (badness 10000) in alignment at lines 125--125
+Underfull \hbox (badness 10000) in alignment at lines 135--135
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 131--131
+Underfull \hbox (badness 10000) in alignment at lines 141--141
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 137--137
+Underfull \hbox (badness 10000) in alignment at lines 147--147
 [] 
  []
 
@@ -325,21 +318,21 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Brian Pak Resume.aux)
 Package rerunfilecheck Info: File `"Brian Pak Resume".out' has not changed.
-(rerunfilecheck)             Checksum: 4169E96DF6AFAB04AEF4F0400EEFC443;448.
+(rerunfilecheck)             Checksum: 6639B0D203075DECCC63BADCC908E7C0;460.
  ) 
 Here is how much of TeX's memory you used:
- 13356 strings out of 478268
- 232394 string characters out of 5846347
- 529201 words of memory out of 5000000
- 31419 multiletter control sequences out of 15000+600000
- 475192 words of font info for 49 fonts, out of 8000000 for 9000
+ 13323 strings out of 478268
+ 231338 string characters out of 5846347
+ 533216 words of memory out of 5000000
+ 31393 multiletter control sequences out of 15000+600000
+ 474566 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,467b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on "Brian Pak Resume.pdf" (1 page, 112859 bytes).
+ 60i,11n,63p,348b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on "Brian Pak Resume.pdf" (1 page, 100725 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

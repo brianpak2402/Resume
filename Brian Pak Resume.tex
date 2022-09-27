@@ -35,7 +35,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-8pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
@@ -51,23 +51,23 @@
 
 %% ==== Headings ==== 
 % Just in case someone needs a heading that does not need to be in a list
-\newcommand{\resumeEducationHeading}[4]{
+\newcommand{\resumeEducationHeading}[5]{
     \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \textbf{#1} $\vert$ #2 & #3 \\
+      \textit{\small#4} & \textit{\small #5} \\
     \end{tabular*}\vspace{0.5pt}
 }
 
-\newcommand{\resumeExperienceHeading}[2]{
+\newcommand{\resumeExperienceHeading}[3]{
     \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-    \end{tabular*}\vspace{-4pt}
+      \textbf{#1} {#2} & \textit{#3} \\
+    \end{tabular*}\vspace{-3pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}}
       \textbf{#1} $\vert$ \textit{#2} 
-    \end{tabular*}\vspace{-4pt}
+    \end{tabular*}\vspace{-3pt}
 }
 
 %% ==== Subheadings ====
@@ -105,55 +105,65 @@
 \begin{center}
   \textbf{\huge Brian Pak} \\
   \vspace*{0.1cm}
-  \faIcon{envelope} \href{mailto:brianpak2402@gmail.com}{brianpak2402@gmail.com}  $\cdot$ \faIcon{github} \href{https://github.com/brianpak2402}{github.com/brianpak2402} $\cdot$ \faIcon{linkedin} \href{https://www.linkedin.com/in/brianpakk/}{linkedin.com/in/brianpakk}  
+  {bpak7@gatech.edu}  $\cdot$ {github.com/brianpak2402} $\cdot$ {linkedin.com/in/brianpakk}  $\cdot$ Atlanta, GA
 \end{center}
 
 %-----------EDUCATION-----------------
 \section{Education}
     \resumeEducationHeading
-      {Georgia Institute of Technology $\vert$ Atlanta, GA}{Expected Graduation: May 2024}
-      {B.S -- Computer Science}{\vspace{0.1cm}} 
-    \textbf{Coursework}{: Data Structures \& Algorithms, Object-Oriented Programming, Information Visualization, Computer Organization, Systems Programming, Data Structures (C++), Combinatorics, Discrete Mathematics} \\
+      {Georgia Institute of Technology}{Atlanta, GA}{Expected Graduation: May 2024}
+      {B.S -- Computer Science, Concentrations: Intelligence \& Media}{GPA: 3.12\vspace{0.1cm}} 
+    \textbf{Coursework}{: Data Structures \& Algorithms (Java \& C++), Object-Oriented Programming, Computer Organization, Systems Programming, Automata \& Complexity Theory, Combinatorics, Discrete Mathematics} \\
 
-%--------SKILLS------------
-\section{Technical Skills}
-    \textbf{Languages}{: Java, C, C++, JavaScript, HTML/CSS, Python} \\
-    \textbf{Technologies}{: React.js, Git, styled-components} \\
+%--------------EXPERIENCE---------------
+\section{Experience}
+  \resumeExperienceHeading{GT WebDev}{$\vert$ Software Developer}{August 2022 - Current}
+    \resumeItemListStart
+      \item {Collaborated with a team to Agile development process to develop a game-based learning platform that guides users in exploring new music.}
+      \item {Designed and implemented user authorization on Spotify API with PKCE extension, allowing client secrets to be secured while communicating information with Spotify servers.}
+      \item {Maintained real-time data of `upvotes' and `downvotes' of certain songs/albums using WebSockets API, supporting `multiplayer' functionality.}
+    \resumeItemListEnd
+  
+  \resumeExperienceHeading{Freelance Personal Tutor}{}{August 2021 - May 2022}
+    \resumeItemListStart
+      \item {Prepared personalized lessons in programming fundamentals and object-oriented programming to aid 6 economically-disadvantaged high school students in preparing for advanced standing exams.}
+      \item {Composed guides with Notion to assist 3 students at the University of Georgia in studying Automata Theory and Data Structures, helping raise their academic performance by an average of 6\%.}
+    \resumeItemListEnd
 
 %-----------PROJECT EXPERIENCE-----------------
 \section{Projects}
     \resumeProjectHeading{Unix Utilities}{C}
       \resumeItemListStart
-        \item {Implemented a collection of eight Linux/UNIX command-line commands, including head, tail, env, and wc, to assist two friends in understanding the Linux command line.}
-        \item {Employed \textbf{C Standard Library Functions} to properly make requests to the Linux Kernel.}
+        \item {Implemented a collection of 8 Linux/UNIX command-line commands, including head, tail, env, and wc.}
+        \item {Employed C Standard Library Functions to make system calls to the Linux Kernel, allowing the implementation work directly with the device's operating system.}
       \resumeItemListEnd
 
     \resumeProjectHeading{Stranger Things Showdown!}{C}
       \resumeItemListStart
         \item {Programmed a Stranger Things-themed rock, paper, scissors video game for the GameBoy Advance.}
-        \item {Produced graphics for seven Stranger Things characters and background scenery by manipulating Direct Memory Access functions and implemented game logic using \textbf{C} programming.}
+        \item {Encoded graphics for 7 Stranger Things characters and background scenery into the game by manipulating Direct Memory Access functions and implemented game logic using C programming.}
       \resumeItemListEnd
 
-    \resumeProjectHeading{Geography Quiz!}{JavaFX, JUnit, Maven}
+    \resumeProjectHeading{Geography Quiz}{JavaFX, JUnit, Maven}
       \resumeItemListStart
-        \item {Developed a GUI for an interactive geography quiz, which asks the user to pair countries with continents and stores the results to a bianry file.}
-        \item {Built the frontend of the interface with \textbf{JavaFX} and organized the project through \textbf{Apache Maven}.}
+        \item {Developed a GUI for an interactive geography quiz, which asks players to pair countries with their corresponding continents.}
+        \item {Built the frontend of the interface with JavaFX and organized the project through Apache Maven.}
       \resumeItemListEnd
 
-%-----------COMMUNITY INVOLVEMENT-----------------
-\section{Community Involvement}
-\resumeExperienceHeading{GT WebDev}{August 2022 - Current}
-  \resumeItemListStart
-    \item {Collaborating on a team with six other peers to create a Spotify game-based learning platform in an \textbf{Agile} development process.}
-    \item {Experimenting methods for authenticating host with \textbf{AWS API Gateway} and \textbf{Web Sockets} while allowing host to search for songs with the \textbf{Spotify API}.}
-  \resumeItemListEnd
-
-\resumeExperienceHeading{The Agency}{January 2022 - May 2022}
-  \resumeItemListStart
-    \item {Implemented a deep neural network of three layers in \textbf{Python} that interprets over 10,000 handwritten digits MNIST data to understand fundamental deep learning concepts and basics to ML Libraries}
-    \item {Attended lecture meetings to gain awareness about other AI subfields of interest, like Reinforcement
-    Learning, Machine Learning Theory, and Computer Vision}
-  \resumeItemListEnd
+%-----------LEADERSHIP----------------------
+\section{Extracurriculars}
+  \resumeExperienceHeading{The Agnecy}{}{January 2022 - May 2022}
+    \resumeItemListStart
+      \item {Implemented a deep neural network of three layers in Python that interprets over 10,000 handwritten
+      digits MNIST data to understand fundamental deep learning concepts and basics to ML Libraries.}
+      \item {Attended lecture meetings to gain awareness about other AI subfields of interest, like Reinforcement
+      Learning, Machine Learning Theory, and Computer Vision.}
+    \resumeItemListEnd
+  
+%-----------SKILLS----------------------
+\section{Skills}
+    \textbf{Languages}{: Java, C, C++, JavaScript, HTML/CSS, Python} \\
+    \textbf{Technologies}{: Git, React.js, styled-components} \\
 
 
 \end{document}
