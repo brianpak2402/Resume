@@ -1,6 +1,11 @@
 # Fdb version 3
+<<<<<<< HEAD
 ["pdflatex"] 1671766639 "/Users/brianpak/jobs/Current Resume/Pak_Brian_Resume.tex" "Pak_Brian_Resume.pdf" "Pak_Brian_Resume" 1671766640
   "/Users/brianpak/jobs/Current Resume/Pak_Brian_Resume.tex" 1671766638 7558 c141ffe1b962e9531214ac210b2be686 ""
+=======
+["pdflatex"] 1671763475 "/Users/brianpak/Desktop/Resume/Pak_Brian_Resume.tex" "Pak_Brian_Resume.pdf" "Pak_Brian_Resume" 1671763476
+  "/Users/brianpak/Desktop/Resume/Pak_Brian_Resume.tex" 1671763222 6977 ec61eea927b9f1f0c68888c07c81ca57 ""
+>>>>>>> ec7a937fcbbf810cf7dc08c13687ccefdffd1a95
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -89,9 +94,15 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1652965261 2826441 3c8f17cfde4f7a0bdeb738a0094c8e22 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
+<<<<<<< HEAD
   "Pak_Brian_Resume.aux" 1671766640 1193 e4cb9b5e787c131164714171ee956435 "pdflatex"
   "Pak_Brian_Resume.out" 1671766640 367 4ea223b6b6ecad1cc65f09a23f49ed8f "pdflatex"
   "Pak_Brian_Resume.tex" 1671766638 7558 c141ffe1b962e9531214ac210b2be686 ""
+=======
+  "Pak_Brian_Resume.aux" 1671763476 1300 f5a14d20e90730b67fb4b5875fcabc64 "pdflatex"
+  "Pak_Brian_Resume.out" 1671763476 460 6639b0d203075deccc63badcc908e7c0 "pdflatex"
+  "Pak_Brian_Resume.tex" 1671763222 6977 ec61eea927b9f1f0c68888c07c81ca57 ""
+>>>>>>> ec7a937fcbbf810cf7dc08c13687ccefdffd1a95
   (generated)
   "Pak_Brian_Resume.aux"
   "Pak_Brian_Resume.log"
