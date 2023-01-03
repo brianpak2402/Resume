@@ -1,8 +1,8 @@
-PWD /Users/brianpak/Desktop/Resume
+PWD /Users/brianpak/jobs/Current Resume
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/brianpak/Desktop/Resume/Pak_Brian_Resume.tex
+INPUT /Users/brianpak/jobs/Current Resume/Pak_Brian_Resume.tex
 OUTPUT Pak_Brian_Resume.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
