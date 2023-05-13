@@ -55,7 +55,7 @@
     \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} $\vert$ #2 & #3 \\
       \textit{\small#4} & \textit{\small #5} \\
-    \end{tabular*}\vspace{0.5pt}
+    \end{tabular*}\vspace{12.5pt}
 }
 
 \newcommand{\resumeExperienceHeading}[3]{
@@ -116,43 +116,43 @@
 
 %-----------SKILLS----------------------
 \section{Skills}
-    \textbf{Languages}{: Java, JavaScript, Typescript, HTML5, CSS } \\
-    \textbf{Technologies}{: React, Next.js, Git, Node, Chakra UI, DynamoDB, AWS Lambda, Spring Boot, REST APIs}
+    \textbf{Languages}{: Java, JavaScript, Typescript, HTML, CSS, SQL } \\
+    \textbf{Technologies}{: React, Next.js, Git, Node.js, Chakra UI, DynamoDB, AWS Lambda, Spring Boot, REST APIs}
 
 % --------------EXPERIENCE---------------
 \section{Experience}
   \resumeExperienceHeading{GT Robotic Musicianship Lab}{Student Software Developer}{January 2023 - Present}
     \resumeItemListStart
-      \item {Reconstructed the user interface from deprecated Vue to \textbf{React} for the web-interface of Mixboard, a mobile app that provides users with the ability to combine multiple song tracks.}
+      \item {Reconstructed the user interface from deprecated Vue to \textbf{React Typescript} for the web-interface of Mixboard, a mobile app that provides users with the ability to combine multiple song tracks.}
       \item {Integrated \textbf{HTML Drag \& Drop API} to enable seamless movement of Spotify tracks when combining songs across the web interface.}
-      \item {Developed the initial user interface using \textbf{Chakra UI}, enabling stakeholders to swiftly visualize the new interface and provide valuable feedback.}
+      \item {Developed the user interface using \textbf{Chakra UI}, enabling stakeholders to swiftly visualize the new interface and provide valuable feedback.}
     \resumeItemListEnd
   
 %-----------PROJECT EXPERIENCE-----------------
 \section{Projects}
-    \resumeProjectHeading{Spotify Jukebox}{Next.js, DynamoDB, AWS Lambda, WebSockets API}{August 2022 - May 2023}
+    \resumeProjectHeading{Spotify Jukebox}{Next.js, React Typescript, DynamoDB, AWS Lambda }{August 2022 - May 2023}
       \resumeItemListStart
-        \item {Headed the construction and deployment of the app's \textbf{RESTful API} using \textbf{AWS Lambda}, resulting in secure management of jukebox data within the app's \textbf{DynamoDB} database.}
-        \item {Enabled real-time updates of `up-votes' and `down-votes' for jukebox song queues by building a \textbf{WebSockets API} on \textbf{Amazon API Gateway}.}
-        \item {Migrated the application's user interface to \textbf{Next.js}, leveraging server-side rendering techniques to reduce page-load times by 44\%.}
+        \item {Constructed over 17 RESTful API endpoints through \textbf{Amazon API Gateway} and \textbf{Node.js} to manage user and virtual jukebox data on a \textbf{DynamoDB} database.}
+        \item {Introduced over 11 automated unit test suites using \textbf{Playwright} and \textbf{Vitest} to support the application's CI/CD pipeline, helping detect errors in new pull requests.}
+        \item {Migrated the application's user interface to \textbf{Next.js}, leveraging server-side rendering techniques to reduce page-load times by 9\%.}
         \item {Implemented \textbf{OAuth} Authorization Code Flow with PKCE Extension to securely verify a host user's Spotify account before beginning a music session.}
       \resumeItemListEnd
 
     \resumeProjectHeading{BuzzConnect}{Spring Boot, React, SQL}{August 2022 - December 2022}
       \resumeItemListStart
-        \item {Developed a full-stack \textbf{React} application in an \textbf{Agile} devleopment process to inform students about ongoing student events on Georgia Tech's campus.}
-        \item {Headed the development of a RESTful API with over 15 endpoints using \textbf{Spring Boot}, allowing successful transfer of user and event data.}
-        \item {Modeled relationships between 4 functional classes using \textbf{Spring Boot JPA}, allowing the development team to easily maintain and store data in a local \textbf{MySQL} database.}
-        \item {Leveraged GT Places through \textbf{Axios} HTTP client to relate events to locations throughout Georgia Tech's campus.}
+        \item {Spearheaded the development of the application's 20 RESTful API endpoints using \textbf{Spring Boot},  allowing successful transfer of user and event data.}
+        \item {Provided a responsive design to the user interface by applying \textbf{CSS Container Queries} to the application's 4 webpages, allowing the UI to fit any screen.}
+        \item {Modeled relationships between 4 functional classes using \textbf{Spring Boot JPA}, allowing the development team to easily maintain and store data in a local \textbf{MySQL} relational database.}
+        \item {Leveraged the GT Places API through \textbf{Axios} HTTP client to help events to locations throughout Georgia Tech's campus.}
       \resumeItemListEnd
 
 %-----------LEADERSHIP----------------------
 \section{Extracurriculars}
-  \resumeExperienceHeading{GT WebDev Club}{Project Co-Lead - Spotify Jukebox}{August 2022 - Present}
+  \resumeExperienceHeading{WebDev @ GT}{Engineering Manager - Spotify Jukebox}{August 2022 - Present}
     \resumeItemListStart
-      \item {Onboarded 10 student developers by providing expert guidance on our project's tech stack through three organized workshop-driven flow sessions, resulting in a 50\% reduction in expected onboarding time.}
-      \item {Directed three developers in implementing payment functionality into the app's \textbf{REST API} using the \textbf{Stripe API}, providing a revenue stream for the app.}
-      \item {Collaborated with 3 UI designers to conceptualize and build a new design for the app using \textbf{Radix UI}, producing a refreshed and modernized user interface that was well-received by over 50 users.}
+      \item {Directed a team of 10 student developers to redesign the application's RESTful \& Websockets APIs on \textbf{API Gateway} to achieve a 30\% improvement in the speed of updates to jukebox song queues.}
+      \item {Collaborated with 3 UI designers to conceptualize and build a new design for the app using \textbf{Radix UI}, producing a modernized user interface that was well-received by over 35 users.}
+      \item {Enforced an Agile development process to effectively design and build over 9 new features/improvements for the application.}
     \resumeItemListEnd
 
 \end{document}
