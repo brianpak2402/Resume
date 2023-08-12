@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.19)  13 MAY 2023 12:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.19)  12 AUG 2023 15:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/brianpak/jobs/Current Resume/Pak_Brian_Resume.tex"
-(/Users/brianpak/jobs/Current Resume/Pak_Brian_Resume.tex
+**"/Users/brianpak/Job Hunt/Current Resume/Pak_Brian_Resume.tex"
+(/Users/brianpak/Job Hunt/Current Resume/Pak_Brian_Resume.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -304,21 +304,21 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Pak_Brian_Resume.aux)
 Package rerunfilecheck Info: File `Pak_Brian_Resume.out' has not changed.
-(rerunfilecheck)             Checksum: 56DE29CBAC9193F930DDD23D0967B045;460.
+(rerunfilecheck)             Checksum: C6AB7D4221F0357E09F869FF68F4A311;337.
  ) 
 Here is how much of TeX's memory you used:
- 13321 strings out of 478268
- 231268 string characters out of 5846347
- 534224 words of memory out of 5000000
- 31391 multiletter control sequences out of 15000+600000
+ 13319 strings out of 478268
+ 231260 string characters out of 5846347
+ 534221 words of memory out of 5000000
+ 31390 multiletter control sequences out of 15000+600000
  474566 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,348b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,11n,63p,352b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Pak_Brian_Resume.pdf (1 page, 104122 bytes).
+Output written on Pak_Brian_Resume.pdf (1 page, 105519 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

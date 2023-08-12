@@ -55,7 +55,7 @@
     \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} $\vert$ #2 & #3 \\
       \textit{\small#4} & \textit{\small #5} \\
-    \end{tabular*}\vspace{12.5pt}
+    \end{tabular*}\vspace{5pt}
 }
 
 \newcommand{\resumeExperienceHeading}[3]{
@@ -107,20 +107,28 @@
   {bpak7@gatech.edu} $\cdot$ {brianpak.me} $\cdot$ {github.com/brianpak2402} $\cdot$ {linkedin.com/in/brianpakk}  $\cdot$ 678-641-5035 
 \end{center}
 
+%-----------SKILLS----------------------
+\section{Skills}
+    \textbf{Languages}{: Java, JavaScript, Typescript, Python, HTML, CSS, SQL } \\
+    \textbf{Technologies}{: React, Next.js, Git, Node.js, Chakra UI, DynamoDB, AWS Lambda, AWS S3, AWS RDS, GraphQL, REST APIs}
+
+
 %-----------EDUCATION-----------------
 \section{Education}
     \resumeEducationHeading
       {Georgia Institute of Technology}{Atlanta, GA}{Expected: May 2024}
-      {B.S -- Computer Science, Concentrations: Intelligence \& Media}{\vspace{0.1cm} } % <= GPA: 3.XX
-    \textbf{Coursework}{: Data Structures \& Algorithms (Java \& C++), Information Visualization, Computer Organization \& Programming, Object-Oriented Programming, Discrete Math, Combinatorics} \\
+      {B.S -- Computer Science, Concentrations: Intelligence \& Media}{GPA: 3.42}
+    \textbf{Coursework}{: Data Structures \& Algorithms (Java \& C++), Information Visualization, Computer Organization \& Programming, Object-Oriented Design, Discrete Math, Combinatorics} \\
 
-%-----------SKILLS----------------------
-\section{Skills}
-    \textbf{Languages}{: Java, JavaScript, Typescript, HTML, CSS, SQL } \\
-    \textbf{Technologies}{: React, Next.js, Git, Node.js, Chakra UI, DynamoDB, AWS Lambda, Spring Boot, REST APIs}
 
 % --------------EXPERIENCE---------------
 \section{Experience}
+  \resumeExperienceHeading{Ridgeline Apps}{Software Engineering Intern}{June 2023 - August 2023}
+    \resumeItemListStart
+      \item {Prototyped a \textbf{GraphQL}-based trade alert notification service with \textbf{Amazon SNS} and \textbf{AWS Lambda} to support over 600 traders when tending to over \$2 million in critical transactions.}
+      \item {Deployed over five scalable APIs for maintaining sound effects and alert preferences using \textbf{AWS S3}, \textbf{Amazon RDS}, and \textbf{Python}, currently in use to scale the notification service to the entire application.}
+      \item {Constructed the user interface for the application's trade notification settings page using \textbf{React} and \textbf{Typescript}, resulting in a seamless user experience and streamlined customization of alert preferences.}
+    \resumeItemListEnd
   \resumeExperienceHeading{GT Robotic Musicianship Lab}{Student Software Developer}{January 2023 - Present}
     \resumeItemListStart
       \item {Reconstructed the user interface from deprecated Vue to \textbf{React Typescript} for the web-interface of Mixboard, a mobile app that provides users with the ability to combine multiple song tracks.}
@@ -146,13 +154,5 @@
         \item {Leveraged the GT Places API through \textbf{Axios} HTTP client to help events to locations throughout Georgia Tech's campus.}
       \resumeItemListEnd
 
-%-----------LEADERSHIP----------------------
-\section{Extracurriculars}
-  \resumeExperienceHeading{WebDev @ GT}{Engineering Manager - Spotify Jukebox}{August 2022 - Present}
-    \resumeItemListStart
-      \item {Directed a team of 10 student developers to redesign the application's RESTful \& Websockets APIs on \textbf{API Gateway} to achieve a 30\% improvement in the speed of updates to jukebox song queues.}
-      \item {Collaborated with 3 UI designers to conceptualize and build a new design for the app using \textbf{Radix UI}, producing a modernized user interface that was well-received by over 35 users.}
-      \item {Enforced an Agile development process to effectively design and build over 9 new features/improvements for the application.}
-    \resumeItemListEnd
 
 \end{document}
